@@ -56,7 +56,7 @@
             android:textSize="24sp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="392dp" />
+            tools:layout_editor_absoluteY="363dp" />
 
         <ImageView
             android:layout_width="42dp"
@@ -64,7 +64,7 @@
             android:src="@drawable/item_pellet_logo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="10dp"
-            tools:layout_editor_absoluteY="397dp" />
+            tools:layout_editor_absoluteY="372dp" />
 
         <EditText
             android:id="@+id/add_weight"
@@ -76,7 +76,7 @@
             android:textSize="24sp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="313dp" />
+            tools:layout_editor_absoluteY="293dp" />
 
         <ImageView
             android:layout_width="34dp"
@@ -84,7 +84,7 @@
             android:src="@drawable/item_weight_logo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="326dp" />
+            tools:layout_editor_absoluteY="300dp" />
 
         <EditText
             android:id="@+id/add_destination"
@@ -96,7 +96,7 @@
             android:textSize="24sp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="233dp" />
+            tools:layout_editor_absoluteY="220dp" />
 
         <ImageView
             android:layout_width="56dp"
@@ -104,7 +104,7 @@
             android:src="@drawable/item_destination_logo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="233dp" />
+            tools:layout_editor_absoluteY="220dp" />
 
         <EditText
             android:id="@+id/add_description"
@@ -116,7 +116,7 @@
             android:textSize="24sp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
-            tools:layout_editor_absoluteY="465dp" />
+            tools:layout_editor_absoluteY="504dp" />
 
         <ImageView
             android:layout_width="51dp"
@@ -124,9 +124,26 @@
             android:src="@drawable/item_description_logo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="483dp" />
-
-        <Button
+            tools:layout_editor_absoluteY="510dp" />
+        <EditText
+            android:id="@+id/add_time"
+            android:layout_width="346dp"
+            android:layout_height="62dp"
+            android:hint="Type time"
+            android:padding="16dp"
+            android:textColorHint="#817B7B"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="434dp" />
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="43dp"
+            android:src="@drawable/time_logo"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="444dp" />
+        <ImageButton
             android:id="@+id/add_item_save"
             android:layout_width="248dp"
             android:layout_height="67dp"

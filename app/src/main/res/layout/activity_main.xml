@@ -65,8 +65,8 @@
 
                 <ImageButton
                     android:id="@+id/login"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="330dp"
+                    android:layout_height="58dp"
                     android:layout_weight="1"
                     android:background="@color/cardview_dark_background"
                     android:scaleType="centerCrop"

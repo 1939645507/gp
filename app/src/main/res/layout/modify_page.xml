@@ -34,7 +34,6 @@
             android:hint="Type name"
             android:textColorHint="#817B7B"
             android:textSize="24sp"
-            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="146dp" />
@@ -55,7 +54,6 @@
             android:hint="Type pellet"
             android:textColorHint="#817B7B"
             android:textSize="24sp"
-            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="392dp" />
@@ -76,7 +74,6 @@
             android:hint="Type weight"
             android:textColorHint="#817B7B"
             android:textSize="24sp"
-            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="313dp" />
@@ -97,7 +94,6 @@
             android:hint="Type destination"
             android:textColorHint="#817B7B"
             android:textSize="24sp"
-            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="233dp" />
@@ -118,7 +114,6 @@
             android:padding="16dp"
             android:textColorHint="#817B7B"
             android:textSize="24sp"
-            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="56dp"
             tools:layout_editor_absoluteY="465dp" />
@@ -149,7 +144,7 @@
             android:background="@color/cardview_dark_background"
             android:scaleType="centerCrop"
 
-            android:src="@drawable/modified_item_back_button"
+            android:src="@drawable/add_back_button"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
             tools:layout_editor_absoluteX="13dp"
             tools:layout_editor_absoluteY="16dp" />
